@@ -31,7 +31,7 @@ img{
 }
 
 
-/* CONTAINER */
+/* CONTAINER
 .container{
   width: 100%;
   max-width: 1200px;
@@ -40,9 +40,37 @@ img{
   margin-left: auto;
   margin-right: auto;
 }
-
+*/
 
 /* MAIN CONTENT */
 .main content{
   flex-grow: 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+.global-wrapper{
+  flex-grow: 1;
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/* SAYOHAT BLOGIMIZNING CHAP TOMONI */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+}
+.hero-content {
+}
+.hero-heading {
+}
+.hero-link {
+}
+.hero-link-text {
 }
