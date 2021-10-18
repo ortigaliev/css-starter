@@ -43,10 +43,9 @@ img{
 */
 
 /* MAIN CONTENT */
-.main content{
-  flex-grow: 1px;
+.main-content{
   display: flex;
-  flex-direction: column;
+  flex-grow: 1;
 }
 
 .global-wrapper{
